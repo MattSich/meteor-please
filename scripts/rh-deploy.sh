@@ -11,7 +11,7 @@ rm -rf <%= appName %>.tar.gz
 ​
 # install npm dependencies
 cd bundle/programs/server/
-sudo npm install
+npm install
 ​
 # restart daemon
 sudo systemctl daemon-reload
