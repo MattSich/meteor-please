@@ -2,7 +2,7 @@
 ​
 sudo systemctl stop <%= appName %>.service
 sudo chown -R <%= appUser %> <%= appRemoteTargetPath %>
-sudo su <%= appUser %>
+# sudo su <%= appUser %>
 cd <%= appRemoteTargetPath %>
 ​
 # unpack bundle / overwrite previous
